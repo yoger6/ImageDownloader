@@ -1,0 +1,5 @@
+D:\OneDrive\Sources\MVVM\WebImageDownloader\bin\Debug\WebImageDownloader.dll
+D:\OneDrive\Sources\MVVM\WebImageDownloader\bin\Debug\WebImageDownloader.pdb
+D:\OneDrive\Sources\MVVM\WebImageDownloader\obj\Debug\WebImageDownloader.csprojResolveAssemblyReference.cache
+D:\OneDrive\Sources\MVVM\WebImageDownloader\obj\Debug\WebImageDownloader.dll
+D:\OneDrive\Sources\MVVM\WebImageDownloader\obj\Debug\WebImageDownloader.pdb

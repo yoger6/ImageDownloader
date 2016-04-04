@@ -1,0 +1,10 @@
+D:\OneDrive\Sources\MVVM\WebsiteImageDownloaderTests\obj\Debug\WebsiteImageDownloaderTests.csprojResolveAssemblyReference.cache
+D:\OneDrive\Sources\MVVM\WebsiteImageDownloaderTests\bin\Debug\WebsiteImageDownloaderTests.dll
+D:\OneDrive\Sources\MVVM\WebsiteImageDownloaderTests\bin\Debug\WebsiteImageDownloaderTests.pdb
+D:\OneDrive\Sources\MVVM\WebsiteImageDownloaderTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\OneDrive\Sources\MVVM\WebsiteImageDownloaderTests\bin\Debug\WebsiteImageDownload.exe
+D:\OneDrive\Sources\MVVM\WebsiteImageDownloaderTests\bin\Debug\WebsiteImageDownload.pdb
+D:\OneDrive\Sources\MVVM\WebsiteImageDownloaderTests\obj\Debug\WebsiteImageDownloaderTests.dll
+D:\OneDrive\Sources\MVVM\WebsiteImageDownloaderTests\obj\Debug\WebsiteImageDownloaderTests.pdb
+D:\OneDrive\Sources\MVVM\WebsiteImageDownloaderTests\bin\Debug\WebImageDownloader.dll
+D:\OneDrive\Sources\MVVM\WebsiteImageDownloaderTests\bin\Debug\WebImageDownloader.pdb

@@ -1,0 +1,51 @@
+﻿<Window x:Class="WebsiteImageDownload.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:viewModels="clr-namespace:WebsiteImageDownload.ViewModels"
+        Title="MainWindow"
+        Style="{StaticResource WindowStyle}">
+    
+    <Window.DataContext>
+        <viewModels:MainWindowViewModel/>
+    </Window.DataContext>
+    
+    <Window.Resources>
+        <ResourceDictionary Source="Styles/MainViewStyle.xaml"/>
+    </Window.Resources>
+    
+    <DockPanel VerticalAlignment="Top" LastChildFill="True" Style="{StaticResource TopmostPanel}">
+        <Grid DockPanel.Dock="Top" Height="20">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+            <TextBlock Grid.Column="0" Style="{StaticResource GridElement}">Add Website:</TextBlock>
+            <TextBox Grid.Column="1" Style="{StaticResource GridElement}" Text="{Binding Url}"/>
+            <Button Grid.Column="2" Style="{StaticResource GridElement}" Command="{Binding AddWebsiteCommand}">Add</Button>
+        </Grid>
+        <ProgressBar DockPanel.Dock="Bottom" HorizontalAlignment="Stretch"></ProgressBar>
+        <Grid DockPanel.Dock="Left">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <TextBlock Grid.Row="0" Style="{StaticResource GridElement}">Downloaders:</TextBlock>
+            <ListView Name="Websites" Grid.Row="1" Style="{StaticResource WebsiteListStyle}" ItemsSource="{Binding Websites}"/>
+            <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Center">
+                <Button Style="{StaticResource GridElement}">Page Settings</Button>
+                <Button Style="{StaticResource GridElement}" Command="{Binding DownloadCommand}" CommandParameter="{Binding ElementName=Websites, Path=SelectedItem}">Download</Button>
+                <Button Style="{StaticResource GridElement}">Remove All</Button>
+            </StackPanel>
+        </Grid>
+        <Grid DockPanel.Dock="Right" Height="Auto">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <TextBlock Grid.Row="0" Style="{StaticResource GridElement}">Recent Images:</TextBlock>
+            <ListView Grid.Row="1"></ListView>
+        </Grid>
+    </DockPanel>
+</Window>

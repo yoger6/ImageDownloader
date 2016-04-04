@@ -1,0 +1,36 @@
+﻿<Window x:Class="WebsiteImageDownload.PageSettingsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="PageSettingsWindow"
+        Style="{StaticResource WindowStyle}">
+    <StackPanel Style="{StaticResource TopmostPanel}">
+        <StackPanel Orientation="Horizontal">
+            <TextBlock Style="{StaticResource GridElement}" Text="Settings for:"/>
+            <TextBlock Style="{StaticResource GridElement}" Text="http://somebullshit.com"/>
+        </StackPanel>
+
+        <TextBlock Style="{StaticResource GridElement}">Save destination:</TextBlock>
+        <StackPanel Orientation="Horizontal">
+            <TextBlock Style="{StaticResource GridElement}" Text="destination path"/>
+            <Button Style="{StaticResource GridElement}">Change</Button>
+        </StackPanel>
+
+        <TextBlock Style="{StaticResource GridElement}">Image size filter:</TextBlock>
+        <StackPanel Orientation="Horizontal">
+            <TextBlock Style="{StaticResource GridElement}" Text="Width"/>
+            <TextBox Width="30"></TextBox>
+            <TextBlock Style="{StaticResource GridElement}" Text="Height"/>
+            <TextBox Width="30"></TextBox>
+        </StackPanel> 
+        <TextBlock Style="{StaticResource GridElement}">File size filter:
+        </TextBlock>
+        <StackPanel Orientation="Horizontal">
+            <TextBlock Style="{StaticResource GridElement}" Text="At least"/>
+            <TextBox Width="30"></TextBox>
+            <TextBlock Style="{StaticResource GridElement}" Text="KB"/>
+            <TextBlock Style="{StaticResource GridElement}" Text="At most"/>
+            <TextBox Width="30"></TextBox>
+            <TextBlock Style="{StaticResource GridElement}" Text="KB"/>
+        </StackPanel>
+    </StackPanel>
+</Window>
