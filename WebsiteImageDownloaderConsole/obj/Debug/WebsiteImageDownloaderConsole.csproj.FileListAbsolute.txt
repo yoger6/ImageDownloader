@@ -1,8 +1,0 @@
-D:\OneDrive\Sources\MVVM\WebsiteImageDownloaderConsole\bin\Debug\WebsiteImageDownloaderConsole.exe.config
-D:\OneDrive\Sources\MVVM\WebsiteImageDownloaderConsole\bin\Debug\WebsiteImageDownloaderConsole.exe
-D:\OneDrive\Sources\MVVM\WebsiteImageDownloaderConsole\bin\Debug\WebsiteImageDownloaderConsole.pdb
-D:\OneDrive\Sources\MVVM\WebsiteImageDownloaderConsole\bin\Debug\WebsiteImageDownload.exe
-D:\OneDrive\Sources\MVVM\WebsiteImageDownloaderConsole\bin\Debug\WebsiteImageDownload.pdb
-D:\OneDrive\Sources\MVVM\WebsiteImageDownloaderConsole\obj\Debug\WebsiteImageDownloaderConsole.csprojResolveAssemblyReference.cache
-D:\OneDrive\Sources\MVVM\WebsiteImageDownloaderConsole\obj\Debug\WebsiteImageDownloaderConsole.exe
-D:\OneDrive\Sources\MVVM\WebsiteImageDownloaderConsole\obj\Debug\WebsiteImageDownloaderConsole.pdb
